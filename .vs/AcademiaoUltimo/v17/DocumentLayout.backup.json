@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\academiaoultimo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\views\\planos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\planos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\academiaoultimo\\views\\pagamentos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\pagamentos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\academiaoultimo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AcademiaoUltimo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAcwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T17:06:12.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Pagamentos\\Create.cshtml",
+              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Pagamentos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Pagamentos\\Create.cshtml",
+              "RelativeToolTip": "AcademiaoUltimo\\Views\\Pagamentos\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T16:56:52.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Planos\\Details.cshtml",
+              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Planos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Planos\\Details.cshtml",
+              "RelativeToolTip": "AcademiaoUltimo\\Views\\Planos\\Details.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAcwI8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T16:56:11.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AcademiaoUltimo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAcwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T16:55:41.689Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

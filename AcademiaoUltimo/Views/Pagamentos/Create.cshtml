@@ -1,0 +1,53 @@
+﻿@model AcademiaoUltimo.Models.Pagamento
+
+@{
+    ViewBag.Title = "Criar Pagamento";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Criar Pagamento</h2>
+
+    @using (Html.BeginForm())
+    {
+        <div class="form-horizontal">
+            <h4>Detalhes do Pagamento</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group row">
+                @Html.LabelFor(model => model.UsuarioId, "Confirme o Usuário", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("UsuarioId", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.UsuarioId, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group row">
+                @Html.LabelFor(model => model.PlanoId, "Confirme o Plano", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("PlanoId", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.PlanoId, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group row">
+                @Html.LabelFor(model => model.DataPagamento, "Data do Pagamento", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.DataPagamento, new { htmlAttributes = new { @class = "form-control", @placeholder = "dd/mm/aaaa" } })
+                    @Html.ValidationMessageFor(model => model.DataPagamento, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Criar" class="btn btn-primary" />
+                    @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-secondary ml-2" })
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

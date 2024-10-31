@@ -1,0 +1,145 @@
+﻿@model AcademiaoUltimo.Models.Plano
+
+@{
+    ViewBag.Title = "Detalhes do Plano";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Ajuste o layout conforme necessário
+}
+
+<style>
+    /* Estilos gerais da página */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f4f8;
+        color: #333;
+    }
+
+    /* Estilo do cabeçalho */
+    h2 {
+        color: #003366;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    /* Container para os detalhes */
+    .details-container {
+        background-color: #333;
+        border-radius: 8px;
+        padding: 20px;
+        margin: 20px auto;
+        width: 60%;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        color: #f0f4f8;
+    }
+
+        /* Títulos e descrições dos itens */
+        .details-container h4 {
+            color: #0099cc;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #0099cc;
+            padding-bottom: 5px;
+        }
+
+    .dl-horizontal dt {
+        color: #66b2ff;
+        font-weight: bold;
+    }
+
+    .dl-horizontal dd {
+        color: #f0f4f8;
+        margin-bottom: 10px;
+    }
+
+    /* Botões */
+    .btn-custom {
+        background-color: #0099cc;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        margin: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+        .btn-custom:hover {
+            background-color: #007acc;
+        }
+
+    /* Botão Cancelar em vermelho */
+    .btn-cancel {
+        background-color: #cc0000;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        margin: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+        .btn-cancel:hover {
+            background-color: #b30000;
+        }
+
+    /* Botão Finalizar Compra em verde */
+    .btn-finalizar-compra {
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        margin: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+        .btn-finalizar-compra:hover {
+            background-color: #218838;
+        }
+</style>
+
+<h2>Detalhes do Plano</h2>
+
+<div class="details-container">
+    <h4>Plano</h4>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Preco)
+        </dt>
+        <dd>
+            R$ @Html.DisplayFor(model => model.Preco)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+    </dl>
+</div>
+
+<p class="text-center">
+    @Html.ActionLink("Cancelar", "Index", "Home", new { area = "" }, new { @class = "btn-cancel" })
+
+    @if (User.Identity.IsAuthenticated)
+    {
+        <a href="/Pagamentos/Create" class="btn-finalizar-compra">Finalizar Compra</a>
+    }
+    else
+    {
+        <a href="@Url.Action("Login", "Account")" class="btn-finalizar-compra">Finalizar Compra</a>
+    }
+</p>

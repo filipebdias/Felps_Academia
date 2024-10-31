@@ -1,0 +1,70 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main class="container mt-5">
+    <section class="text-center mb-5" aria-labelledby="aspnetTitle">
+        <h1 id="title" class="display-4 text-primary">Academia Felps</h1>
+        <p class="lead text-muted">Descubra os nossos planos e comece sua jornada de fitness conosco!</p>
+    </section>
+
+    <div class="row">
+        <section class="col-md-4 mb-4" aria-labelledby="plano1Title">
+            <div class="card border-primary shadow-sm">
+                <img src="~/Imagens/plano1.jpg" alt="Plano 1" class="card-img-top img-fluid plan-image" />
+                <div class="card-body">
+                    <h2 id="plano1Title" class="card-title text-primary">Basico</h2>
+                    <p class="card-text">Clique para ver mais detalhes sobre o plano.</p>
+                    <a class="btn btn-primary" href="/Planos/Details/1">Ver Plano basico</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="col-md-4 mb-4" aria-labelledby="plano2Title">
+            <div class="card border-primary shadow-sm">
+                <img src="~/Imagens/palno2.jpg" alt="Plano 2" class="card-img-top img-fluid plan-image" />
+                <div class="card-body">
+                    <h2 id="plano2Title" class="card-title text-primary">Plus</h2>
+                    <p class="card-text">Clique para ver mais detalhes sobre o plano..</p>
+                    <a class="btn btn-primary" href="/Planos/Details/2">Ver Plano Plus</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="col-md-4 mb-4" aria-labelledby="plano3Title">
+            <div class="card border-primary shadow-sm">
+                <img src="~/Imagens/plano3.jpg" alt="Plano 3" class="card-img-top img-fluid plan-image" />
+                <div class="card-body">
+                    <h2 id="plano3Title" class="card-title text-primary">Premium</h2>
+                    <p class="card-text">Clique para ver mais detalhes sobre o plano.</p>
+                    <a class="btn btn-primary" href="/Planos/Details/3">Ver Plano Premium</a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</main>
+
+<style>
+    body {
+        background-color: #f8f9fa; /* Cor de fundo clara */
+    }
+
+    .card {
+        border-radius: 0.5rem; /* Bordas arredondadas */
+    }
+
+    .plan-image {
+        box-shadow: 0 0 15px rgba(0, 123, 255, 0.6); /* Sombra azul */
+    }
+
+    .btn-primary {
+        background-color: #007bff; /* Azul */
+        border-color: #007bff; /* Azul */
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3; /* Azul escuro no hover */
+            border-color: #0056b3; /* Azul escuro no hover */
+        }
+</style>

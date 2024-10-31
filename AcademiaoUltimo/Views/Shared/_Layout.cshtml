@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Meu Aplicativo ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <style>
+        /* Estilo para a barra lateral */
+        .sidebar {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            top: 0;
+            left: -200px; /* Esconde a barra inicialmente */
+            background-color: #343a40;
+            overflow-x: hidden;
+            transition: 0.3s;
+            padding-top: 60px;
+        }
+
+            .sidebar a, .sidebar .close-menu-btn {
+                padding: 10px 15px;
+                font-size: 18px;
+                color: white;
+                display: block;
+                transition: 0.3s;
+                text-align: left;
+            }
+
+                .sidebar a:hover, .sidebar .close-menu-btn:hover {
+                    background-color: #575d63;
+                    cursor: pointer;
+                }
+
+        .close-menu-btn {
+            font-size: 20px;
+            background: none;
+            border: none;
+            text-align: right;
+            padding-right: 15px;
+        }
+        /* Botão de abrir menu na toolbar */
+        .open-menu-btn {
+            font-size: 18px;
+            background-color: #343a40;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+            .open-menu-btn:hover {
+                background-color: #575d63;
+            }
+        /* Ajuste de margem do conteúdo principal */
+        .body-content {
+            margin-left: 0;
+            transition: margin-left 0.3s;
+        }
+
+            .body-content.menu-open {
+                margin-left: 200px;
+            }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+        <div class="container">
+            <!-- Botão para abrir o menu lateral dentro da toolbar -->
+            <button class="open-menu-btn" onclick="toggleMenu()">☰</button>
+            @Html.ActionLink("FELPS ACADEMIA", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Alternar a navegação" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li>@Html.ActionLink("Página Inicial", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Sobre", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Contato", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Planos", "Index", "Planos", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Aulas", "Index", "Aulas", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Instrutores", "Index", "Instrutors", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Treinos", "Index", "Treinos", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Usuários", "Index", "Usuarios", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Pagamentos", "Index", "Pagamentos", new { area = "" }, new { @class = "nav-link" })</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu lateral -->
+    <div id="sidebar" class="sidebar">
+        <!-- Botão de fechar o menu lateral -->
+        <button class="close-menu-btn" onclick="toggleMenu()">✖</button>
+        <a href="@Url.Action("Index", "Administrador")">Administrador</a>
+    </div>
+
+    <div class="container body-content" id="mainContent">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Meu Aplicativo ASP.NET</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    <script>
+        function toggleMenu() {
+            var sidebar = document.getElementById("sidebar");
+            var mainContent = document.getElementById("mainContent");
+
+            // Alterna a posição da barra lateral e a margem do conteúdo principal
+            if (sidebar.style.left === "0px") {
+                sidebar.style.left = "-200px";
+                mainContent.classList.remove("menu-open");
+            } else {
+                sidebar.style.left = "0px";
+                mainContent.classList.add("menu-open");
+            }
+        }
+    </script>
+</body>
+</html>
