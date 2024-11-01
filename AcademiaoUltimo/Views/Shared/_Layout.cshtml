@@ -83,12 +83,7 @@
                     <li>@Html.ActionLink("Página Inicial", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Sobre", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Contato", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Planos", "Index", "Planos", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Aulas", "Index", "Aulas", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Instrutores", "Index", "Instrutors", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Treinos", "Index", "Treinos", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Usuários", "Index", "Usuarios", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Pagamentos", "Index", "Pagamentos", new { area = "" }, new { @class = "nav-link" })</li>
+                   
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
@@ -99,7 +94,8 @@
     <div id="sidebar" class="sidebar">
         <!-- Botão de fechar o menu lateral -->
         <button class="close-menu-btn" onclick="toggleMenu()">✖</button>
-        <a href="@Url.Action("Index", "Administrador")">Administrador</a>
+        <li>@Html.ActionLink("Administrador", "Adm", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
+       
     </div>
 
     <div class="container body-content" id="mainContent">
@@ -107,6 +103,7 @@
         <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - Meu Aplicativo ASP.NET</p>
+            <p>Feito por : Filipe Dias Barreto </p>
         </footer>
     </div>
 

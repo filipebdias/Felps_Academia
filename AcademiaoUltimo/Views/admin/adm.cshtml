@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "Página de Controle";
+}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa; /* Cor de fundo clara */
+        }
+
+        .control-buttons {
+            display: flex; /* Exibe os botões em linha */
+            flex-wrap: wrap; /* Permite que os botões se movam para a próxima linha se necessário */
+            justify-content: center; /* Centraliza os botões */
+            gap: 20px; /* Espaçamento entre os botões */
+            margin-top: 50px; /* Espaçamento superior */
+        }
+
+        button {
+            padding: 15px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            background-color: #007bff; /* Azul claro */
+            color: white;
+            flex: 1 1 150px; /* Flex-grow e flex-shrink com base no tamanho mínimo de 150px */
+        }
+
+            button:hover {
+                background-color: #0056b3; /* Azul escuro no hover */
+            }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <section class="text-center mb-5">
+            <h1 id="title" class="display-4 text-primary">Academia Felps</h1>
+            <p class="lead text-muted">Controle de Acesso</p>
+        </section>
+
+        <div class="control-buttons">
+            <button onclick="window.location.href='@Url.Action("Index", "Planos")'">Planos</button>
+            <button onclick="window.location.href='@Url.Action("Index", "Aulas")'">Aulas</button>
+            <button onclick="window.location.href='@Url.Action("Index", "Instrutors")'">Instrutores</button>
+            <button onclick="window.location.href='@Url.Action("Index", "Treinos")'">Treinos</button>
+            <button onclick="window.location.href='@Url.Action("Index", "Usuarios")'">Usuários</button>
+            <button onclick="window.location.href='@Url.Action("Index", "Pagamentos")'">Pagamentos</button>
+        </div>
+    </main>
+</body>
+</html>
