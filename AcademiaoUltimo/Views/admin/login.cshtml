@@ -1,0 +1,99 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e9ecef; /* Cor de fundo mais suave */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 30px; /* Aumentar o padding */
+            border-radius: 10px; /* Bordas mais arredondadas */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra mais suave */
+            width: 300px; /* Largura fixa */
+            text-align: center; /* Centraliza o texto */
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #343a40; /* Cor do título */
+        }
+
+        input {
+            width: 100%;
+            padding: 12px; /* Aumentar o padding */
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px; /* Bordas mais arredondadas */
+            transition: border-color 0.3s; /* Transição suave */
+        }
+
+            input:focus {
+                border-color: #007bff; /* Cor da borda ao focar */
+                outline: none; /* Remove o contorno padrão */
+            }
+
+        button {
+            padding: 12px; /* Aumentar o padding */
+            background-color: #007bff; /* Cor do botão de entrar */
+            color: white;
+            border: none;
+            border-radius: 8px; /* Bordas mais arredondadas */
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s, transform 0.2s; /* Transições suaves */
+            margin-top: 10px; /* Espaço entre os botões */
+        }
+
+            button:hover {
+                background-color: #0056b3; /* Cor do botão de entrar ao passar o mouse */
+                transform: translateY(-2px); /* Elevação no hover */
+            }
+
+        .cancel-button {
+            background-color: #dc3545; /* Cor vermelha para o botão de cancelar */
+            margin-top: 10px; /* Espaço entre os botões */
+        }
+
+            .cancel-button:hover {
+                background-color: #c82333; /* Cor do botão de cancelar ao passar o mouse */
+            }
+
+        .error {
+            color: red;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        @if (ViewBag.ErrorMessage != null)
+        {
+            <div class="error">@ViewBag.ErrorMessage</div>
+        }
+        @using (Html.BeginForm("Login", "Admin", FormMethod.Post))
+        {
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="password" name="password" placeholder="Senha" required />
+            <button type="submit">Entrar</button>
+        }
+        <button type="button" class="cancel-button" onclick="window.location.href='@Url.Action("Index", "Home")'">Cancelar</button>
+    </div>
+</body>
+</html>

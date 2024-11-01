@@ -1,19 +1,56 @@
 ﻿@model AcademiaoUltimo.Models.Treino
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Detalhes do Treino";
 }
 
-<h2>Details</h2>
+<!-- CSS Inline -->
+<style>
+    /* Título da Página */
+    .page-title {
+        font-size: 1.8rem;
+        color: #007bff;
+        margin-bottom: 20px;
+        font-weight: bold;
+        text-align: center; /* Centraliza o título */
+    }
 
-<div>
+    /* Detalhes do Formulário */
+    .details-container {
+        max-width: 600px; /* Limita a largura do conteúdo */
+        margin: 20px auto; /* Centraliza o conteúdo horizontalmente */
+        border: 1px solid #dee2e6;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Definição de Lista */
+    .dl-horizontal dt {
+        text-align: left; /* Alinha as definições à esquerda */
+        font-weight: bold;
+    }
+
+    .dl-horizontal dd {
+        margin-left: 0; /* Remove margens à esquerda */
+    }
+
+    /* Link de Ação */
+    .action-links {
+        text-align: center; /* Centraliza os links de ação */
+        margin-top: 20px;
+    }
+</style>
+
+<h2 class="page-title">Detalhes do Treino</h2>
+
+<div class="details-container">
     <h4>Treino</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
             @Html.DisplayNameFor(model => model.Usuario.Nome)
         </dt>
-
         <dd>
             @Html.DisplayFor(model => model.Usuario.Nome)
         </dd>
@@ -21,7 +58,6 @@
         <dt>
             @Html.DisplayNameFor(model => model.Nome)
         </dt>
-
         <dd>
             @Html.DisplayFor(model => model.Nome)
         </dd>
@@ -29,7 +65,6 @@
         <dt>
             @Html.DisplayNameFor(model => model.Descricao)
         </dt>
-
         <dd>
             @Html.DisplayFor(model => model.Descricao)
         </dd>
@@ -37,14 +72,15 @@
         <dt>
             @Html.DisplayNameFor(model => model.DataTreino)
         </dt>
-
         <dd>
             @Html.DisplayFor(model => model.DataTreino)
         </dd>
-
     </dl>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+
+<div class="action-links">
+    <p>
+       
+        @Html.ActionLink("Voltar para a Lista", "Index", null, new { @class = "btn btn-secondary" })
+    </p>
+</div>

@@ -4,16 +4,63 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<!-- CSS Inline -->
+<style>
+    /* Título da Página */
+    .page-title {
+        font-size: 1.8rem;
+        color: #007bff;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
 
-<div>
-    <h4>Usuario</h4>
+    /* Botão Primário */
+    .btn-primary, .btn-default {
+        background-color: #007bff;
+        color: #fff;
+        padding: 8px 16px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        border: none;
+    }
+
+        .btn-primary:hover, .btn-default:hover {
+            background-color: #0056b3;
+        }
+
+    /* Detalhes do Usuário */
+    .user-details {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        margin: auto;
+    }
+
+    dl {
+        margin-bottom: 20px;
+    }
+
+    dt {
+        font-weight: bold;
+        color: #555;
+    }
+
+    dd {
+        margin-bottom: 10px;
+    }
+</style>
+
+
+<div class="user-details">
+    <h4>Dados do Usuário</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
             @Html.DisplayNameFor(model => model.Nome)
         </dt>
-
         <dd>
             @Html.DisplayFor(model => model.Nome)
         </dd>
@@ -21,7 +68,6 @@
         <dt>
             @Html.DisplayNameFor(model => model.Email)
         </dt>
-
         <dd>
             @Html.DisplayFor(model => model.Email)
         </dd>
@@ -29,14 +75,13 @@
         <dt>
             @Html.DisplayNameFor(model => model.Idade)
         </dt>
-
         <dd>
             @Html.DisplayFor(model => model.Idade)
         </dd>
-
     </dl>
 </div>
+
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
+   
+    @Html.ActionLink("Voltar para a lista", "Index", null, new { @class = "btn btn-default" })
 </p>

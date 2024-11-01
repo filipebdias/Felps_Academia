@@ -4,42 +4,115 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<!-- CSS Inline -->
+<style>
+    /* Título da Página */
+    .page-title {
+        font-size: 1.8rem;
+        color: #007bff;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    /* Botão de Criação */
+    .btn-primary {
+        background-color: #007bff;
+        color: #fff;
+        padding: 8px 16px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    /* Tabela */
+    .table {
+        width: 100%;
+        background-color: #ffffff;
+        border-collapse: collapse;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+        .table th {
+            background-color: #007bff;
+            color: white; /* Cor das palavras para branco */
+            font-weight: bold;
+            padding: 12px;
+            text-align: left;
+        }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #f9f9f9;
+    }
+
+    .table td {
+        padding: 12px;
+        color: #555;
+        border-top: 1px solid #dee2e6;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    /* Botões de Ação */
+    .btn-sm {
+        padding: 5px 10px;
+        font-size: 0.875rem;
+        border-radius: 3px;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    /* Cor para Edit e Details */
+    .btn-info {
+        background-color: #17a2b8;
+    }
+
+        .btn-info:hover {
+            background-color: #138496;
+        }
+
+    /* Cor para Delete */
+    .btn-danger {
+        background-color: #dc3545;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+</style>
+
+<h2 class="page-title">Controle de plano</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Novo plano", "Create", null, new { @class = "btn btn-primary" })
 </p>
-<table class="table">
+
+<table class="table table-striped">
     <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Nome)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Preco)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Descricao)
-        </th>
-        <th></th>
+        <th>@Html.DisplayNameFor(model => model.Nome)</th>
+        <th>@Html.DisplayNameFor(model => model.Preco)</th>
+        <th>@Html.DisplayNameFor(model => model.Descricao)</th>
+        <th class="text-center">Actions</th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Nome)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Preco)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Descricao)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
-
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.Nome)</td>
+            <td>@Html.DisplayFor(modelItem => item.Preco)</td>
+            <td>@Html.DisplayFor(modelItem => item.Descricao)</td>
+            <td class="text-center">
+                @Html.ActionLink("Editar", "Edit", new { id = item.Id }, new { @class = "btn btn-sm btn-info" })
+                @Html.ActionLink("Deletar", "Delete", new { id = item.Id }, new { @class = "btn btn-sm btn-danger" })
+            </td>
+        </tr>
+    }
 </table>
