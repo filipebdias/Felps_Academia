@@ -9,7 +9,6 @@
 
     @using (Html.BeginForm())
     {
-
         @Html.AntiForgeryToken()
 
         <div class="form-horizontal">
@@ -20,7 +19,7 @@
             <div class="form-group row">
                 @Html.LabelFor(model => model.UsuarioId, "Confirme o Usuário", htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-10">
-                    @Html.DropDownList("UsuarioId", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.DropDownList("UsuarioId", (SelectList)ViewBag.UsuarioId, htmlAttributes: new { @class = "form-control" })
                     @Html.ValidationMessageFor(model => model.UsuarioId, "", new { @class = "text-danger" })
                 </div>
             </div>
@@ -28,7 +27,7 @@
             <div class="form-group row">
                 @Html.LabelFor(model => model.PlanoId, "Confirme o Plano", htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-10">
-                    @Html.DropDownList("PlanoId", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.DropDownList("PlanoId", (SelectList)ViewBag.PlanoId, htmlAttributes: new { @class = "form-control" })
                     @Html.ValidationMessageFor(model => model.PlanoId, "", new { @class = "text-danger" })
                 </div>
             </div>
