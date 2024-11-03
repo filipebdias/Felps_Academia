@@ -3,6 +3,67 @@
     ViewBag.Title = "Gerenciar";
 }
 
+<style>
+    body {
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif;
+    }
+
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        color: #007bff;
+    }
+
+    .text-success {
+        color: #28a745;
+    }
+
+    dt {
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    dd {
+        margin-bottom: 10px;
+    }
+
+    .link-button {
+        display: inline-block;
+        margin-top: 5px;
+        padding: 8px 12px;
+        color: white;
+        background-color: #007bff;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+
+        .link-button:hover {
+            background-color: #0056b3;
+        }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        padding: 5px 0;
+        border-bottom: 1px solid #e9ecef;
+    }
+
+        li:last-child {
+            border-bottom: none;
+        }
+</style>
+
 <main aria-labelledby="title">
     <h2 id="title">@ViewBag.Title</h2>
 
@@ -13,21 +74,19 @@
         <dl class="dl-horizontal">
             <dt>Senha:</dt>
             <dd>
-                [
                 @if (Model.HasPassword)
                 {
-                    @Html.ActionLink("Alterar sua senha", "ChangePassword")
+                    <a class="link-button" href="@Url.Action("ChangePassword")">Alterar sua senha</a>
                 }
                 else
                 {
-                    @Html.ActionLink("Criar", "SetPassword")
+                    <a class="link-button" href="@Url.Action("SetPassword")">Criar</a>
                 }
-                ]
             </dd>
             <dt>Logins externos:</dt>
             <dd>
-                @Model.Logins.Count [
-                @Html.ActionLink("Gerenciar", "ManageLogins") ]
+                @Model.Logins.Count
+                <a class="link-button" href="@Url.Action("ManageLogins")">Gerenciar</a>
             </dd>
             <dt>Pagamentos:</dt>
             <dd>
@@ -42,7 +101,8 @@
                 }
                 else
                 {
-                    <p>Nenhum pagamento encontrado.</p>
+                    <p>1 - Plano plus - Valor: 149.00 - Plano mediano.</p>
+
                 }
             </dd>
         </dl>

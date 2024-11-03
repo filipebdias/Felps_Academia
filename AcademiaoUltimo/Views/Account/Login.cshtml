@@ -4,8 +4,103 @@
     ViewBag.Title = "Logon";
 }
 
+<style>
+    body {
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif;
+    }
+
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 30px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        color: #007bff;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        margin-top: 10px;
+        color: #343a40;
+        text-align: center;
+    }
+
+    hr {
+        border-top: 1px solid #e9ecef;
+        margin: 20px 0;
+    }
+
+    .text-danger {
+        margin-bottom: 15px;
+    }
+
+    .row {
+        margin-bottom: 15px;
+    }
+
+    .col-form-label {
+        font-weight: bold;
+    }
+
+    .form-control {
+        border-radius: 4px;
+        border: 1px solid #ced4da;
+        box-shadow: none;
+    }
+
+        .form-control:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+
+    .checkbox {
+        margin-top: 10px;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 10px; /* Espaçamento entre os botões */
+    }
+
+    .btn-outline-dark {
+        border-color: #343a40;
+        color: #343a40;
+        transition: background-color 0.3s, color 0.3s; /* Transição suave */
+    }
+
+        .btn-outline-dark:hover {
+            background-color: #343a40;
+            color: white;
+        }
+
+    .btn-link {
+        color: #007bff; /* Cor do link */
+        text-decoration: none; /* Remove o sublinhado */
+        font-size: 14px; /* Tamanho da fonte do link */
+        font-weight: bold; /* Negrito */
+        transition: color 0.3s; /* Transição suave */
+    }
+
+        .btn-link:hover {
+            color: #0056b3; /* Cor ao passar o mouse */
+        }
+
+    .social-login {
+        text-align: center;
+        margin-top: 20px;
+    }
+</style>
+
 <main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title.</h2>
+    <h2 id="title">@ViewBag.Title</h2>
     <div class="row">
         <div class="col-md-8">
             <section id="loginForm">
@@ -15,45 +110,50 @@
                     <h4>Use uma conta local para fazer o logon.</h4>
                     <hr />
                     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
                     <div class="row">
                         @Html.LabelFor(m => m.Email, new { @class = "col-md-2 col-form-label" })
                         <div class="col-md-10">
-                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Digite seu email" })
                             @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
                         </div>
                     </div>
+
                     <div class="row">
                         @Html.LabelFor(m => m.Password, new { @class = "col-md-2 col-form-label" })
                         <div class="col-md-10">
-                            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Digite sua senha" })
                             @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="offset-md-2 col-md-10">
                             <div class="checkbox">
                                 @Html.CheckBoxFor(m => m.RememberMe)
-                                @Html.LabelFor(m => m.RememberMe)
+                                @Html.LabelFor(m => m.RememberMe, new { @class = "form-check-label" })
                             </div>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="offset-md-2 col-md-10">
                             <input type="submit" value="Logon" class="btn btn-outline-dark" />
                         </div>
                     </div>
-                    <p>
-                        @Html.ActionLink("Registre-se como um novo usuário", "Register")
+
+                    <p class="text-center">
+                        <a href="@Url.Action("Register", "Account")" class="btn btn-link">Registre-se como um novo usuário</a>
                     </p>
-                    //Habilite quando a confirmação da conta estiver ativada para a funcionalidade de redefinição de senha
-                        <p>
-                            @Html.ActionLink("Esqueceu sua senha?", "ForgotPassword")
-                        </p>
+
+                    <p class="text-center">
+                        <a href="@Url.Action("ForgotPassword", "Account")" class="btn btn-link">Esqueceu sua senha?</a>
+                    </p>
                 }
             </section>
         </div>
         <div class="col-md-4">
-            <section id="socialLoginForm">
+            <section id="socialLoginForm" class="social-login">
                 @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
             </section>
         </div>

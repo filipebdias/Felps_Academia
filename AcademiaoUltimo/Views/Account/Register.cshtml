@@ -3,8 +3,83 @@
     ViewBag.Title = "Registre-se";
 }
 
+<style>
+    body {
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif;
+    }
+
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 30px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        color: #007bff;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        margin-top: 10px;
+        color: #343a40;
+        text-align: center;
+    }
+
+    hr {
+        border-top: 1px solid #e9ecef;
+        margin: 20px 0;
+    }
+
+    .text-danger {
+        margin-bottom: 15px;
+        text-align: center; /* Centraliza as mensagens de erro */
+    }
+
+    .row {
+        margin-bottom: 15px;
+    }
+
+    .col-form-label {
+        font-weight: bold;
+    }
+
+    .form-control {
+        border-radius: 4px;
+        border: 1px solid #ced4da;
+        box-shadow: none;
+    }
+
+        .form-control:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+
+    .btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        margin-top: 20px; /* Espaçamento acima do botão */
+    }
+
+    .btn-outline-dark {
+        border-color: #343a40;
+        color: #343a40;
+        transition: background-color 0.3s, color 0.3s; /* Transição suave */
+    }
+
+        .btn-outline-dark:hover {
+            background-color: #343a40;
+            color: white;
+        }
+</style>
+
 <main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title.</h2>
+    <h2 id="title">@ViewBag.Title</h2>
 
     @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { role = "form" }))
     {
@@ -12,24 +87,28 @@
         <h4>Criar uma nova conta.</h4>
         <hr />
         @Html.ValidationSummary("", new { @class = "text-danger" })
+
         <div class="row">
             @Html.LabelFor(m => m.Email, new { @class = "col-md-2 col-form-label" })
             <div class="col-md-10">
-                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Digite seu email" })
             </div>
         </div>
+
         <div class="row">
             @Html.LabelFor(m => m.Password, new { @class = "col-md-2 col-form-label" })
             <div class="col-md-10">
-                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Digite sua senha" })
             </div>
         </div>
+
         <div class="row">
             @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 col-form-label" })
             <div class="col-md-10">
-                @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+                @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control", placeholder = "Confirme sua senha" })
             </div>
         </div>
+
         <div class="row">
             <div class="offset-md-2 col-md-10">
                 <input type="submit" value="Registrar" class="btn btn-outline-dark" />

@@ -1,9 +1,82 @@
 ﻿@{
-    ViewBag.Title = "About";
+    ViewBag.Title = "Sobre a Academia";
 }
-<main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title.</h2>
-    <h3>@ViewBag.Message</h3>
 
-    <p>Use this area to provide additional information.</p>
+<style>
+    body {
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif;
+    }
+
+    main {
+        max-width: 800px; /* Limita a largura do conteúdo */
+        margin: 30px auto; /* Centraliza o conteúdo */
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        color: #007bff; /* Azul do sistema */
+        margin-bottom: 20px;
+        text-align: center; /* Centraliza o título */
+    }
+
+    h3 {
+        color: #343a40;
+        margin-top: 15px;
+        text-align: center; /* Centraliza o subtítulo */
+    }
+
+    p {
+        line-height: 1.6; /* Melhora a legibilidade */
+        margin-bottom: 15px;
+    }
+
+    img {
+        max-width: 100%; /* Garante que as imagens não ultrapassem a largura do contêiner */
+        border-radius: 8px; /* Arredonda as bordas das imagens */
+        margin-bottom: 20px; /* Espaçamento abaixo das imagens */
+    }
+
+    .mission {
+        font-weight: bold; /* Destaca a missão */
+        color: #007bff; /* Azul do sistema */
+        font-size: 1.2em; /* Aumenta o tamanho da fonte */
+        text-align: center; /* Centraliza o texto da missão */
+        margin: 20px 0; /* Adiciona espaço acima e abaixo do texto */
+        padding: 10px; /* Adiciona espaço interno */
+        border: 2px solid #007bff; /* Borda azul em volta do texto */
+        border-radius: 8px; /* Arredonda as bordas da caixa */
+        background-color: #e7f0ff; /* Fundo azul claro */
+    }
+
+    .icon {
+        text-align: center; /* Centraliza o ícone */
+        margin: 20px 0; /* Espaçamento em torno do ícone */
+    }
+</style>
+
+<main aria-labelledby="title">
+    <h2 id="title">@ViewBag.Title</h2>
+    <h3>Bem-vindo à nossa Academia!</h3>
+
+    <div class="icon">
+        <img src="~/Imagens/palno2.jpg" alt="Ícone da Missão" /> <!-- Ícone que representa a missão -->
+    </div>
+    <p>A nossa academia foi criada com o objetivo de promover saúde, bem-estar e qualidade de vida. Oferecemos um ambiente acolhedor e motivador para todas as idades e níveis de condicionamento físico. Se você está começando agora ou já é um atleta experiente, temos algo para você!</p>
+
+    <h3>Missão</h3>
+    <div class="icon">
+        <img src="~/Imagens/plano3.jpg" alt="Ícone da Missão" /> <!-- Ícone que representa a missão -->
+    </div>
+    <p class="mission">Nossa missão é transformar vidas por meio da atividade física e do bem-estar, proporcionando um espaço seguro e motivacional para todos os nossos membros.</p>
+
+    <h3>Valores</h3>
+    <p>Nosso compromisso é com a qualidade, respeito e inclusão. Acreditamos que todos merecem a oportunidade de alcançar seus objetivos de saúde e fitness.</p>
+
+
+    <h3>Venha nos visitar!</h3>
+    <p>Estamos localizados no coração da cidade, prontos para recebê-lo. Agende uma visita e venha conhecer nossas instalações e equipe. Junte-se à nossa comunidade e comece sua jornada rumo a uma vida mais saudável!</p>
 </main>
