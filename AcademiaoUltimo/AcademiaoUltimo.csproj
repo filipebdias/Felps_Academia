@@ -191,6 +191,10 @@
     <Compile Include="Migrations\202411030107483_segundamigration.Designer.cs">
       <DependentUpon>202411030107483_segundamigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202411030447531_novaMigração.cs" />
+    <Compile Include="Migrations\202411030447531_novaMigração.Designer.cs">
+      <DependentUpon>202411030447531_novaMigração.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Aula.cs" />
@@ -344,6 +348,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202411030107483_segundamigration.resx">
       <DependentUpon>202411030107483_segundamigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202411030447531_novaMigração.resx">
+      <DependentUpon>202411030447531_novaMigração.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

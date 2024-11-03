@@ -122,3 +122,4 @@ C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\AcademiaoUlt
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\Academia.EA548E2A.Up2Date
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\AcademiaoUltimo.dll
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\AcademiaoUltimo.pdb
+C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\AcademiaoUltimo.Migrations.novaMigração.resources

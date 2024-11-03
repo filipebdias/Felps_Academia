@@ -12,6 +12,8 @@ namespace AcademiaoUltimo.Models
         public string Email { get; set; }
         public int Idade { get; set; }
 
+        public string idUsuario { get; set; }
+
         // Relacionamento com Plano
         public List<Plano> Planos { get; set; } = new List<Plano>();
 

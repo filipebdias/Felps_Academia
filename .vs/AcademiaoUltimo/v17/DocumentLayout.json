@@ -3,80 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\views\\instrutors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\instrutors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\views\\instrutors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\instrutors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\views\\planos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\planos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\views\\instrutors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\instrutors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\views\\planos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\planos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\views\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\views\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\views\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\controllers\\pagamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\controllers\\pagamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\academiaoultimo\\views\\pagamentos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\pagamentos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\academiaoultimo\\views\\admin\\adm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\admin\\adm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\academiaoultimo\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\academiaoultimo\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\migrations\\202411030447531_novamigra\u00E7\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\migrations\\202411030447531_novamigra\u00E7\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\academiaoultimo\\migrations\\202411030107483_segundamigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\migrations\\202411030107483_segundamigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\academiaoultimo\\controllers\\pagamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\controllers\\pagamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\models\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\models\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\academiaoultimo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\views\\instrutors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\instrutors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,250 +46,124 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Instrutors\\Details.cshtml",
-              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Instrutors\\Details.cshtml",
-              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Instrutors\\Details.cshtml",
-              "RelativeToolTip": "AcademiaoUltimo\\Views\\Instrutors\\Details.cshtml",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T04:10:25.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Planos\\Create.cshtml",
-              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Planos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Planos\\Create.cshtml",
-              "RelativeToolTip": "AcademiaoUltimo\\Views\\Planos\\Create.cshtml",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAcwFsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T04:08:36.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Instrutors\\Create.cshtml",
-              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Instrutors\\Create.cshtml",
-              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Instrutors\\Create.cshtml",
-              "RelativeToolTip": "AcademiaoUltimo\\Views\\Instrutors\\Create.cshtml",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAcwF0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T04:07:30.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Planos\\Index.cshtml",
-              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Planos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Planos\\Index.cshtml",
-              "RelativeToolTip": "AcademiaoUltimo\\Views\\Planos\\Index.cshtml",
-              "ViewState": "AgIAADUAAAAAAAAAAAAcwEgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T04:04:10.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Instrutors\\Index.cshtml",
-              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Instrutors\\Index.cshtml",
-              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Instrutors\\Index.cshtml",
-              "RelativeToolTip": "AcademiaoUltimo\\Views\\Instrutors\\Index.cshtml",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAcwH8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T04:02:33.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ForgotPasswordConfirmation.cshtml",
-              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
-              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
-              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
-              "RelativeToolTip": "AcademiaoUltimo\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAcwDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T03:56:21.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ForgotPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Account\\ForgotPassword.cshtml",
-              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Account\\ForgotPassword.cshtml",
-              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Account\\ForgotPassword.cshtml",
-              "RelativeToolTip": "AcademiaoUltimo\\Views\\Account\\ForgotPassword.cshtml",
-              "ViewState": "AgIAADsAAAAAAAAAAAAcwFsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T03:50:24.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "AcademiaoUltimo\\Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAcwGUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T03:41:27.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Home\\About.cshtml",
-              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "AcademiaoUltimo\\Views\\Home\\About.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T03:34:11.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "AcademiaoUltimo\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAcwHYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T03:30:11.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "AcademiaoUltimo\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAcwKUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T03:26:53.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ChangePassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Manage\\ChangePassword.cshtml",
-              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Manage\\ChangePassword.cshtml",
-              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Manage\\ChangePassword.cshtml",
-              "RelativeToolTip": "AcademiaoUltimo\\Views\\Manage\\ChangePassword.cshtml",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAcwG8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T03:24:26.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Manage\\Index.cshtml",
-              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Manage\\Index.cshtml",
-              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Manage\\Index.cshtml",
-              "RelativeToolTip": "AcademiaoUltimo\\Views\\Manage\\Index.cshtml",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAAGcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T03:21:15.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "PagamentosController.cs",
               "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Controllers\\PagamentosController.cs",
               "RelativeDocumentMoniker": "AcademiaoUltimo\\Controllers\\PagamentosController.cs",
               "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Controllers\\PagamentosController.cs",
               "RelativeToolTip": "AcademiaoUltimo\\Controllers\\PagamentosController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAcwEQAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAADwvzcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T01:54:04.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Pagamentos\\Create.cshtml",
-              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Pagamentos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Pagamentos\\Create.cshtml",
-              "RelativeToolTip": "AcademiaoUltimo\\Views\\Pagamentos\\Create.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAAC8AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T01:46:00.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "adm.cshtml",
-              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\admin\\adm.cshtml",
-              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\admin\\adm.cshtml",
-              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\admin\\adm.cshtml",
-              "RelativeToolTip": "AcademiaoUltimo\\Views\\admin\\adm.cshtml",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFUAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T01:43:54.878Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "AcademiaoUltimo\\Migrations\\Configuration.cs",
-              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "AcademiaoUltimo\\Migrations\\Configuration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "202411030447531_novaMigra\u00E7\u00E3o.cs",
+              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Migrations\\202411030447531_novaMigra\u00E7\u00E3o.cs",
+              "RelativeDocumentMoniker": "AcademiaoUltimo\\Migrations\\202411030447531_novaMigra\u00E7\u00E3o.cs",
+              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Migrations\\202411030447531_novaMigra\u00E7\u00E3o.cs",
+              "RelativeToolTip": "AcademiaoUltimo\\Migrations\\202411030447531_novaMigra\u00E7\u00E3o.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T01:08:14.637Z"
+              "WhenOpened": "2024-11-03T04:47:59.349Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 0,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Web.config",
               "RelativeDocumentMoniker": "AcademiaoUltimo\\Web.config",
               "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Web.config",
               "RelativeToolTip": "AcademiaoUltimo\\Web.config",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAAGkAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-03T00:57:34.224Z",
+              "WhenOpened": "2024-11-03T04:14:23.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "AcademiaoUltimo\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAcwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T03:26:53.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "202411030107483_segundamigration.cs",
               "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Migrations\\202411030107483_segundamigration.cs",
               "RelativeDocumentMoniker": "AcademiaoUltimo\\Migrations\\202411030107483_segundamigration.cs",
               "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Migrations\\202411030107483_segundamigration.cs",
               "RelativeToolTip": "AcademiaoUltimo\\Migrations\\202411030107483_segundamigration.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwA0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T01:07:53.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Instrutors\\Details.cshtml",
+              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Instrutors\\Details.cshtml",
+              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Instrutors\\Details.cshtml",
+              "RelativeToolTip": "AcademiaoUltimo\\Views\\Instrutors\\Details.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAADgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T04:10:25.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AcademiaoUltimo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AcademiaoUltimo\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T01:07:53.212Z"
+              "WhenOpened": "2024-11-03T04:15:24.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pagamento.cs",
+              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Models\\Pagamento.cs",
+              "RelativeDocumentMoniker": "AcademiaoUltimo\\Models\\Pagamento.cs",
+              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Models\\Pagamento.cs",
+              "RelativeToolTip": "AcademiaoUltimo\\Models\\Pagamento.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T04:37:16.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "AcademiaoUltimo\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Models\\Usuario.cs",
+              "RelativeToolTip": "AcademiaoUltimo\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T04:28:02.908Z",
+              "EditorCaption": ""
             }
           ]
         }

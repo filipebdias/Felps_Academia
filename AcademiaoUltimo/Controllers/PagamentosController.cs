@@ -34,6 +34,7 @@ namespace AcademiaoUltimo.Controllers
             }
 
             return View(pagamento);
+
         }
 
         // GET: Pagamentos/Create
@@ -55,9 +56,9 @@ namespace AcademiaoUltimo.Controllers
                 pagamento.DataPagamento = DateTime.Now;
 
                 var userIdString = User.Identity.GetUserId();
-                if (int.TryParse(userIdString, out int userId))
+                if (userIdString != null)
                 {
-                    pagamento.UsuarioId = userId; // Define o UsuarioId
+                    pagamento.StringId = userIdString; // Define o UsuarioId
                 }
                 else
                 {
