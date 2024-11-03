@@ -58,11 +58,11 @@ namespace AcademiaoUltimo
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "1050453276410-qgmu8qelin8l48tt417c8rlc88nb1dun.apps.googleusercontent.com",
+                ClientSecret = "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"
+            });
         }
     }
 }

@@ -1,12 +1,69 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|c:\\users\\filipe\\documents\\academiaoultimo\\academiaoultimo\\app_start\\startup.auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\app_start\\startup.auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\academiaoultimo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\academiaoultimo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2708320C-3911-4D30-9084-CED98EEEAA64}|AcademiaoUltimo\\AcademiaoUltimo.csproj|solutionrelative:academiaoultimo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "AcademiaoUltimo\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "AcademiaoUltimo\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T14:39:36.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "AcademiaoUltimo\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "AcademiaoUltimo\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:39:19.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.Auth.cs",
+              "DocumentMoniker": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\App_Start\\Startup.Auth.cs",
+              "RelativeDocumentMoniker": "AcademiaoUltimo\\App_Start\\Startup.Auth.cs",
+              "ToolTip": "C:\\Users\\filipe\\Documents\\AcademiaoUltimo\\AcademiaoUltimo\\App_Start\\Startup.Auth.cs",
+              "RelativeToolTip": "AcademiaoUltimo\\App_Start\\Startup.Auth.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAkwD8AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:37:23.253Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

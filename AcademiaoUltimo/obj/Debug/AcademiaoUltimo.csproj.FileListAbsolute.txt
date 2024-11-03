@@ -117,9 +117,9 @@ C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\pt-br\Microsoft.As
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\pt-br\Microsoft.AspNet.Identity.EntityFramework.resources.dll
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\AcademiaoUltimo.csproj.AssemblyReference.cache
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\AcademiaoUltimo.Migrations.segundamigration.resources
+C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\AcademiaoUltimo.Migrations.novaMigração.resources
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\AcademiaoUltimo.csproj.GenerateResource.cache
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\AcademiaoUltimo.csproj.CoreCompileInputs.cache
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\Academia.EA548E2A.Up2Date
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\AcademiaoUltimo.dll
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\AcademiaoUltimo.pdb
-C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\AcademiaoUltimo.Migrations.novaMigração.resources
