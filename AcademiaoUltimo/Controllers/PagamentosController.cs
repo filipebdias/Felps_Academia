@@ -66,7 +66,7 @@ namespace AcademiaoUltimo.Controllers
 
                 db.Pagamentoes.Add(pagamento);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Home");
             }
 
             // Repreencher o ViewBag em caso de erro de validação

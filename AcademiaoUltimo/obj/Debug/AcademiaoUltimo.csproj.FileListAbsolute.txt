@@ -57,6 +57,8 @@ C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\Microsoft.AspNet.I
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\Microsoft.AspNet.Identity.Owin.dll
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\Microsoft.Owin.dll
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\Microsoft.Owin.Host.SystemWeb.dll
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\Microsoft.Owin.Security.Cookies.dll
@@ -77,6 +79,10 @@ C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\System.Web.WebPage
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\System.Web.WebPages.dll
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\System.Web.WebPages.Razor.dll
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\WebGrease.dll
+C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\EntityFramework.xml
+C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\EntityFramework.SqlServer.xml
+C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\System.Web.Helpers.xml
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\System.Web.Mvc.xml
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\System.Web.Optimization.xml
@@ -86,8 +92,6 @@ C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\System.Web.WebPage
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\System.Web.WebPages.Razor.xml
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\Newtonsoft.Json.xml
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\Antlr3.Runtime.pdb
-C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\EntityFramework.xml
-C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\EntityFramework.SqlServer.xml
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\Microsoft.AspNet.Identity.Core.xml
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\Microsoft.AspNet.Identity.Owin.xml
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
@@ -112,6 +116,8 @@ C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\pt-br\Microsoft.As
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\pt-br\Microsoft.AspNet.Identity.Owin.resources.dll
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\bin\pt-br\Microsoft.AspNet.Identity.EntityFramework.resources.dll
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\AcademiaoUltimo.csproj.AssemblyReference.cache
+C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\AcademiaoUltimo.Migrations.segundamigration.resources
+C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\AcademiaoUltimo.csproj.GenerateResource.cache
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\AcademiaoUltimo.csproj.CoreCompileInputs.cache
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\Academia.EA548E2A.Up2Date
 C:\Users\filipe\Documents\AcademiaoUltimo\AcademiaoUltimo\obj\Debug\AcademiaoUltimo.dll
