@@ -1,6 +1,8 @@
 
 # Funcionamento do Trabalho da Academia - AcademiaoUltimo
 
+#Para colocar o banco para funcionar, usei codeFirst mas para não atrasar a avaliação deixei a linha do defaultConnection para testar mais rapido (fica a criterio do professor). O nome do dataBase é Academia com "A" maiusculo. 
+
 ## Visão Geral
 O projeto **AcademiaoUltimo** é um sistema de gerenciamento de academias que facilita o registro e gerenciamento de usuários, planos de pagamento, treinos, aulas e pagamentos. O sistema é projetado para ser intuitivo e acessível, com funcionalidades que atendem tanto aos usuários quanto aos administradores.
 
