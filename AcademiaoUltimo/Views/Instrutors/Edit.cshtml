@@ -4,13 +4,75 @@
     ViewBag.Title = "Edit";
 }
 
-<h2>Edit</h2>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+        padding: 20px;
+    }
 
+    h2 {
+        color: #007bff;
+        text-align: center;
+    }
+
+    .form-horizontal {
+        max-width: 600px;
+        margin: auto;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+    }
+
+    h4 {
+        color: #333;
+        text-align: center;
+    }
+
+    hr {
+        margin: 20px 0;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .control-label {
+        font-weight: bold;
+        color: #333;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+    .text-danger {
+        color: #e3342f;
+    }
+
+    .back-link {
+        text-align: center;
+        margin-top: 20px;
+    }
+</style>
+
+<h2>Edit</h2>
 
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
+
     <div class="form-horizontal">
         <h4>Instrutor</h4>
         <hr />
@@ -35,14 +97,14 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Save" class="btn btn-default" />
+                <input type="submit" value="Save" class="btn" />
             </div>
         </div>
     </div>
 }
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
+<div class="back-link">
+    @Html.ActionLink("Back to List", "Index", new { @class = "btn btn-link" })
 </div>
 
 @section Scripts {

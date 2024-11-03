@@ -2,8 +2,57 @@
 @{
     ViewBag.Title = "Registrar";
 }
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+    }
+
+    main {
+        max-width: 600px;
+        margin: auto;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+    }
+
+    h2 {
+        color: #007bff;
+        text-align: center;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+    .text-info {
+        margin: 20px 0;
+        font-size: 14px;
+        color: #6c757d;
+        text-align: center;
+    }
+
+    hr {
+        margin: 20px 0;
+    }
+</style>
+
 <main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title.</h2>
+    <h2 id="title">@ViewBag.Title</h2>
     <h3>Associe a sua conta @ViewBag.LoginProvider.</h3>
 
     @using (Html.BeginForm("ExternalLoginConfirmation", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
@@ -27,7 +76,7 @@
         </div>
         <div class="row">
             <div class="offset-md-2 col-md-10">
-                <input type="submit" class="btn btn-outline-dark" value="Registrar" />
+                <input type="submit" class="btn" value="Registrar" />
             </div>
         </div>
     }

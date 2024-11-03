@@ -54,9 +54,9 @@ namespace AcademiaoUltimo
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "542807901705216",
+               appSecret: "2634e4be06fd9f3e98eedc86ce454c74");
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
