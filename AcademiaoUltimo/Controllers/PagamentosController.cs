@@ -26,11 +26,11 @@ namespace AcademiaoUltimo.Controllers
         public ActionResult Details(int id)
         {
             var pagamento = db.Pagamentoes.Include(p => p.Plano).Include(p => p.Usuario)
-                                   .FirstOrDefault(p => p.Id == id); // Certifique-se de que o nome da propriedade está correto
+                                   .FirstOrDefault(p => p.Id == id); 
 
             if (pagamento == null)
             {
-                return HttpNotFound(); // Isso deve retornar uma página 404 se o pagamento não for encontrado
+                return HttpNotFound();
             }
 
             return View(pagamento);
@@ -40,8 +40,8 @@ namespace AcademiaoUltimo.Controllers
         // GET: Pagamentos/Create
         public ActionResult Create()
         {
-            ViewBag.UsuarioId = new SelectList(db.Usuarios, "Id", "Nome"); // Certifique-se de que "Id" e "Nome" estão corretos
-            ViewBag.PlanoId = new SelectList(db.Planoes, "Id", "Nome"); // O mesmo se aplica aos planos
+            ViewBag.UsuarioId = new SelectList(db.Usuarios, "Id", "Nome"); 
+            ViewBag.PlanoId = new SelectList(db.Planoes, "Id", "Nome"); 
             return View();
         }
 
@@ -58,7 +58,7 @@ namespace AcademiaoUltimo.Controllers
                 var userIdString = User.Identity.GetUserId();
                 if (userIdString != null)
                 {
-                    pagamento.StringId = userIdString; // Define o UsuarioId
+                    pagamento.StringId = userIdString;
                 }
                 else
                 {
@@ -70,9 +70,8 @@ namespace AcademiaoUltimo.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
-            // Repreencher o ViewBag em caso de erro de validação
-            ViewBag.UsuarioId = new SelectList(db.Usuarios, "Id", "Nome", pagamento.UsuarioId); // Ocorre aqui
-            ViewBag.PlanoId = new SelectList(db.Planoes, "Id", "Nome", pagamento.PlanoId); // Ocorre aqui
+            ViewBag.UsuarioId = new SelectList(db.Usuarios, "Id", "Nome", pagamento.UsuarioId);
+            ViewBag.PlanoId = new SelectList(db.Planoes, "Id", "Nome", pagamento.PlanoId); 
             return View(pagamento);
         }
 
@@ -81,15 +80,14 @@ namespace AcademiaoUltimo.Controllers
         public ActionResult Edit(int? id)
         {
             // Obtenha o pagamento que você está editando
-            var pagamento = db.Pagamentoes.Find(id); // Altere conforme sua estrutura de dados
+            var pagamento = db.Pagamentoes.Find(id); 
             if (pagamento == null)
             {
                 return HttpNotFound();
             }
 
-            // Preencher o ViewBag com a lista de usuários para o dropdown
-            ViewBag.UsuarioId = new SelectList(db.Usuarios, "Id", "Nome", pagamento.UsuarioId); // Ajuste conforme seu modelo
-            ViewBag.PlanoId = new SelectList(db.Planoes, "Id", "Nome", pagamento.PlanoId); // Faça o mesmo para planos
+            ViewBag.UsuarioId = new SelectList(db.Usuarios, "Id", "Nome", pagamento.UsuarioId); 
+            ViewBag.PlanoId = new SelectList(db.Planoes, "Id", "Nome", pagamento.PlanoId);
 
             return View(pagamento);
         }
@@ -105,17 +103,17 @@ namespace AcademiaoUltimo.Controllers
                 if (pagamentoExistente != null)
                 {
                     pagamentoExistente.PlanoId = pagamento.PlanoId;
-                    pagamentoExistente.DataPagamento = DateTime.Now; // Atualiza a data do pagamento
+                    pagamentoExistente.DataPagamento = DateTime.Now; 
                     var userIdString = User.Identity.GetUserId();
 
                     if (int.TryParse(userIdString, out int userId))
                     {
-                        pagamentoExistente.UsuarioId = userId; // Mantém o UsuarioId
+                        pagamentoExistente.UsuarioId = userId; 
                     }
                     else
                     {
                         ModelState.AddModelError("", "Usuário não encontrado ou ID de usuário inválido.");
-                        ViewBag.UsuarioId = new SelectList(db.Usuarios, "Id", "Nome", pagamento.UsuarioId); // Preencher o ViewBag novamente
+                        ViewBag.UsuarioId = new SelectList(db.Usuarios, "Id", "Nome", pagamento.UsuarioId);
                         ViewBag.PlanoId = new SelectList(db.Planoes, "Id", "Nome", pagamento.PlanoId);
                         return View(pagamento);
                     }
@@ -130,7 +128,6 @@ namespace AcademiaoUltimo.Controllers
                 }
             }
 
-            // Caso ModelState não seja válido, reabasteça o ViewBag
             ViewBag.UsuarioId = new SelectList(db.Usuarios, "Id", "Nome", pagamento.UsuarioId);
             ViewBag.PlanoId = new SelectList(db.Planoes, "Id", "Nome", pagamento.PlanoId);
             return View(pagamento);

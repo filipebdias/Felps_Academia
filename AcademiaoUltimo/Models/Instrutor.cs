@@ -11,7 +11,6 @@ namespace AcademiaoUltimo.Models
         public string Nome { get; set; }
         public string Especialidade { get; set; }
 
-        // Relacionamento com Aula
         public List<Aula> Aulas { get; set; } = new List<Aula>();
     }
 }

@@ -14,10 +14,8 @@ namespace AcademiaoUltimo.Models
 
         public string idUsuario { get; set; }
 
-        // Relacionamento com Plano
         public List<Plano> Planos { get; set; } = new List<Plano>();
 
-        // Relacionamento com Pagamento
         public List<Pagamento> Pagamentos { get; set; } = new List<Pagamento>();
     }
 }

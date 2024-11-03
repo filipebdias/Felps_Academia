@@ -9,13 +9,11 @@ namespace AcademiaoUltimo.Models
     {
         public int Id { get; set; }
 
-        // Relacionamento com Usuario
         public int UsuarioId { get; set; }
         public Usuario Usuario { get; set; }
 
         public string StringId { get; set; }
 
-        // Relacionamento com Plano
         public int PlanoId { get; set; }
         public Plano Plano { get; set; }
 

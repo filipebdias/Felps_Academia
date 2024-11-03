@@ -9,13 +9,12 @@
     @Scripts.Render("~/bundles/modernizr")
 
     <style>
-        /* Estilo para a barra lateral */
         .sidebar {
             height: 100%;
             width: 200px;
             position: fixed;
             top: 0;
-            left: -200px; /* Esconde a barra inicialmente */
+            left: -200px; 
             background-color: #343a40;
             overflow-x: hidden;
             transition: 0.3s;
@@ -43,7 +42,6 @@
             text-align: right;
             padding-right: 15px;
         }
-        /* Botão de abrir menu na toolbar */
         .open-menu-btn {
             font-size: 18px;
             background-color: #343a40;
@@ -57,7 +55,6 @@
             .open-menu-btn:hover {
                 background-color: #575d63;
             }
-        /* Ajuste de margem do conteúdo principal */
         .body-content {
             margin-left: 0;
             transition: margin-left 0.3s;
@@ -71,7 +68,6 @@
 <body>
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
         <div class="container">
-            <!-- Botão para abrir o menu lateral dentro da toolbar -->
             <button class="open-menu-btn" onclick="toggleMenu()">☰</button>
             @Html.ActionLink("FELPS ACADEMIA", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Alternar a navegação" aria-controls="navbarSupportedContent"
@@ -90,9 +86,7 @@
         </div>
     </nav>
 
-    <!-- Menu lateral -->
     <div id="sidebar" class="sidebar">
-        <!-- Botão de fechar o menu lateral -->
         <button class="close-menu-btn" onclick="toggleMenu()">✖</button>
         <li>@Html.ActionLink("Administrador", "Adm", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
        
@@ -116,7 +110,6 @@
             var sidebar = document.getElementById("sidebar");
             var mainContent = document.getElementById("mainContent");
 
-            // Alterna a posição da barra lateral e a margem do conteúdo principal
             if (sidebar.style.left === "0px") {
                 sidebar.style.left = "-200px";
                 mainContent.classList.remove("menu-open");

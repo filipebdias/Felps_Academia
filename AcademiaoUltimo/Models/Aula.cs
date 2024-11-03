@@ -12,11 +12,9 @@ namespace AcademiaoUltimo.Models
         public DateTime Data { get; set; }
         public string Local { get; set; }
 
-        // Relacionamento com Instrutor
         public int InstrutorId { get; set; }
         public Instrutor Instrutor { get; set; }
 
-        // Relacionamento com Treinos
         public List<Treino> Treinos { get; set; } = new List<Treino>();
     }
 }
