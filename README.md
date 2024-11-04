@@ -1,15 +1,15 @@
 
 # Funcionamento do Trabalho da Academia - AcademiaoUltimo
 
-#Para colocar o banco para funcionar, usei codeFirst mas para não atrasar a avaliação deixei a linha do defaultConnection para testar mais rapido (fica a criterio do professor). O nome do dataBase é Academia com "A" maiusculo. 
+#Para colocar o banco para funcionar, usei codeFirst. O nome do dataBase é Academia com "A" maiusculo. 
 
 ## Visão Geral
-O projeto **AcademiaoUltimo** é um sistema de gerenciamento de academias que facilita o registro e gerenciamento de usuários, planos de pagamento, treinos, aulas e pagamentos. O sistema é projetado para ser intuitivo e acessível, com funcionalidades que atendem tanto aos usuários quanto aos administradores.
+O projeto **AcademiaoUltimo** é um sistema de gerenciamento de academia que facilita o registro e gerenciamento de usuários, planos de pagamento, treinos, aulas e pagamentos. O sistema é projetado para ser intuitivo e acessível, com funcionalidades que atendem tanto aos usuários quanto aos administradores.
 
 ## Funcionalidades Principais
 
 ### 1. Autenticação de Usuários
-- **Login com Autenticação Externa**: Os usuários podem se cadastrar e fazer login utilizando suas contas do Google ou Facebook, proporcionando uma experiência de login rápida e segura.
+- **Login com Autenticação Externa**: Os usuários podem se cadastrar e fazer login utilizando suas contas do Google ou Facebook, proporcionando uma experiência de login rápida e segura. Também possui confirmação por e-mail.
 - **Área Administrativa**: Administradores têm acesso a uma interface específica que permite gerenciar usuários e dados da academia. O login para acesso administrativo é feito com as credenciais padrão:
   - **Email**: `adm@gmail.com`
   - **Senha**: `Adm123@`
@@ -28,6 +28,9 @@ O projeto **AcademiaoUltimo** é um sistema de gerenciamento de academias que fa
 ### 5. Pagamentos
 - Os usuários podem realizar pagamentos pelos planos escolhidos, e todos os pagamentos são registrados no sistema, permitindo fácil acompanhamento.
 
+##fluxo de funcionamento
+Precisa cadastrar primeiro os 3 planos da academia, depois cadastra os instrutores, depois as aulas e treinos, por fim é feito a compra do plano.
+
 ## Tecnologias Utilizadas
 - **ASP.NET MVC**: Framework utilizado para o desenvolvimento da aplicação, permitindo a criação de aplicações web dinâmicas.
 - **Microsoft SQL Server**: Sistema de gerenciamento de banco de dados utilizado para armazenar todas as informações da academia, como dados de usuários, planos, pagamentos, treinos e aulas.
@@ -36,5 +39,7 @@ O projeto **AcademiaoUltimo** é um sistema de gerenciamento de academias que fa
 - **JavaScript/jQuery**: Linguagens utilizadas para implementar funcionalidades interativas na aplicação web.
 
 ## Conclusão
-O sistema **AcademiaoUltimo** visa proporcionar uma experiência completa e satisfatória tanto para os usuários quanto para os administradores, tornando a gestão de academias mais eficiente e acessível. Com suas funcionalidades integradas e uso de tecnologias modernas, o projeto se posiciona como uma solução robusta no mercado.
+O sistema **AcademiaoUltimo** visa proporcionar uma experiência completa e satisfatória tanto para os usuários quanto para os administradores, tornando a gestão de academias mais eficiente e acessível. Com suas funcionalidades integradas e uso de tecnologias modernas, o projeto se posiciona como uma solução robusta no mercado 
+
+
 
