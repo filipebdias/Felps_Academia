@@ -55,13 +55,13 @@ namespace AcademiaoUltimo
             //   consumerSecret: "");
 
             app.UseFacebookAuthentication(
-               appId: "542807901705216",
-               appSecret: "2634e4be06fd9f3e98eedc86ce454c74");
+               appId: "...",
+               appSecret: "...");
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "1050453276410-qgmu8qelin8l48tt417c8rlc88nb1dun.apps.googleusercontent.com",
-                ClientSecret = "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"
+                ClientId = "...",
+                ClientSecret = "..."
             });
         }
     }
